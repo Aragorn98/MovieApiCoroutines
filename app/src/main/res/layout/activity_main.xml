@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activities.MainActivity">
+
+    <Spinner
+            android:id="@+id/genres_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <TextView android:id="@+id/eng" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="eng"
+                  android:layout_marginLeft="350dp"/>
+        <TextView android:id="@+id/rus" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="rus"
+                  android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <Button android:id="@+id/favourite_movies" android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:text="My favourite movies"/>
+    <Button
+            android:id="@+id/createRequestToken"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Create request token"/>
+    <Button
+            android:id="@+id/createSession"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Create session"/>
+    <Button
+            android:id="@+id/deleteSession"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Delete session"/>
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/layout_item_movie"/>
+
+
+</LinearLayout>

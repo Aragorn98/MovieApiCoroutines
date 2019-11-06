@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MovieProject</string>
+    <string name="login_button_text">Login</string>
+    <string name="go_to_sign_up_button_text">Sign Up</string>
+    <string name="sign_up_button_text">Sign up</string>
+    <string name="go_to_login_button_text">Login</string>
+    <string name="incorrect_password_error">Incorrect password</string>
+    <string name="user_exists_error">This user already exists</string>
+    <string name="sign_out_button_text">Sign out</string>
+    <string name="add_item_button_text">Add item</string>
+    <string name="save_button_text">Save</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="name_hint">Name</string>
+    <string name="surname_hint">Surname</string>
+    <string name="title_hint">title</string>
+    <string name="content_hint">content</string>
+    <string name="logout_button_text">Logout</string>
+    <string name="fill_all_fields_error">Please, fill all required fields</string>
+    <string name="user_already_exists_error">This user already exists</string>
+    <string name="select_priority_level_error">Please, select priority level</string>
+    <string name="not_registered_error">You have not registered yet</string>
+    <string name="wrong_password_error">Wrong password</string>
+    <string name="success_message">Success!</string>
+    <string name="go_to_main_activity">Go back</string>
+    <string name="load_by_priority_button_text">load by priority</string>
+</resources>
